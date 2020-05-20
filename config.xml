@@ -3,14 +3,14 @@
         xmlns:gap   = "http://phonegap.com/ns/1.0"
         xmlns:android="http://schemas.android.com/apk/res/android" 
         xmlns:cdv="http://cordova.apache.org/ns/1.0"
-        id          = "http://xn--80aafg6avvi.xn--80aqfibbjq.xn--p1ai/"
+        id          = "http://xn--80aqfibbjq.xn--p1ai"
         versionCode = "10"
-        version     = "1.0.0">
+        version     = "1.1.0">
 
-    <name>ТЕСТ. xn--80aqfibbjq.xn--p1ai</name>
+    <name>ТЕСТ. НАКОРМИМ.РФ</name>
 
     <description>
-        Приложение доставки сервиса НАКОРМИМ.РФ
+        Приложение доставки НАКОРМИМ.РФ
     </description>
 
     <author>Tadapp</author>
@@ -30,7 +30,7 @@
     <preference name='WindowsToastCapable' value='true' />
 
     <preference name="SplashMaintainAspectRatio" value="true" />
-    <preference name="SplashScreenSpinnerColor" value="#FF5500" />
+    <preference name="SplashScreenSpinnerColor" value="#007BFF" />
     
     <platform name="android">
       <edit-config file="app/src/main/AndroidManifest.xml" mode="merge" target="/manifest/application">
